@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>code</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='./css/Stilo.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='./css/menu.css'>
+    <!--<script src='main.js'></script> no se utiliza por el momento javascrip-->
+    </head>
+    <body>
+        <!-- Inicia menu de la pag-->
+        <nav>
+            <ul class="menu">
+                <li class="logo"> 
+                    <a href="#">
+                        <!-- Imagen Logo-->
+                         <img src="./img/anime.jpg">        
+                    </a> 
+                 </li>
+                    <li><a href="index.html">inicio</a> </li>
+                    <li><a href="contactenos.html">Contactenos</a> </li>
+                    <li><a href="figuras.html">Figuras</a> </li>
+                    <li><a href="calculadora.html">Calculadora</a> </li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <h1> Anime y Otros</h1>
+
+            <!--inicia formulario-->
+            <div>
+                <form>
+                    <div class="section-flex">
+                        <div class="element-form">
+                                <div class="label">
+                                     <label for="tipy">tipo de mensaje </label>
+                                </div>
+                                    <select id="type" name="type" required>
+                                        <option value=""> Selecione una opción</option>
+                                        <option value="Pag. Anime">Pag. Anime</option>
+                                        <option value="Cotización videos">Cotización videos</option>
+                                        <option value="Felicitaciones">Felicitaciones</option>
+                                        <option value="Sugerencias">Sugerencias</option>
+                                        <option value="Queja">Queja</option>
+                                     </select>
+                                </div>
+                                <div class="element-form">
+                                    <div class="label">
+                                         <label form="name">nombre </label>
+                                    </div>
+                                        <input type="text" id="name" name="name" placeholder="Ingrese sus nombres" required>
+                                </div>
+
+                                <div class="element-form">
+                                    <div lass="label">
+                                         <label form="email">Email </label>
+                                    </div>
+                                        <input type="text" id="email" name="email" placeholder="Ingrese su Email" required>
+                                </div>   
+                                 
+                                <div class="element-form">
+                                    <div lass="label">
+                                         <label form="cel"> Celular </label>
+                                    </div>
+                                        <input type="text" id="cel" name="cel" placeholder="Ingrese su celular" required>
+                                </div>   
+
+                                <div class="element-form">
+                                    <div lass="label">
+                                         <label form="comment"> Comentario </label>
+                                    </div>
+
+                                        <textarea id="comment" name="comment" placeholder="Ingrese su comentario" required> 
+                                        </textarea> 
+                                </div>   
+                                        <div class="elemnt-form">
+                                            <div>
+                                                <label> ¿Que estudias? </label>
+                                            </div> 
+                                            <input type="checkbox" id="chk1" name="chk1" value="html"> HML
+                                   
+                                            <input type="checkbox" id="chk2" name="chk2" value="css"> CSS
+                                    
+                                            <input type="checkbox" id="chk3" name="chk3" value="php"> PHP
+                                        </div>
+                                
+                                        <div class="elemnt-form">
+                                            <div>
+                                                <label> ¿Que estudias? </label>
+                                            </div> 
+                                            <input type="radio" name="radi" id="Radios1" value="html"> HML
+                                            <br>
+                                            <input type="radio" name="radi" id="Radios2" value="css"> CSS
+                                            <br>
+                                            <input type="radio" name="radi" id="Radios3" value="php"> PHP
+                                        </div>
+
+
+                                    <div class="btn-div"> 
+                                        <button type="submit"> Enviar Datos</button:>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    
+                </form>
+                
+            </div>
+            
+    </div>
+        <Footer>
+            <p><h5>Creado por: JAPG</h5></p>        
+        </Footer>
+                
+    </body>
+</html>
